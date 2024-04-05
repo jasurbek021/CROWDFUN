@@ -16,7 +16,6 @@
   align-items: start;
   justify-content: space-between;
   height: 400px;
-
 }
 
 .sitenav-list {
@@ -60,8 +59,7 @@
   margin-right: auto;
   margin-bottom: 4.8rem;
 }
-.hero__conteiner__tatx
- {
+.hero__conteiner__tatx {
   display: flex;
   flex-direction: column;
   gap: 1.2rem;
@@ -115,9 +113,6 @@
   line-height: 1.2;
   text-align: left;
 }
-/* HERO END */
-
-/* STATISTIKA START */
 
 .numbers {
   display: flex;
@@ -132,7 +127,7 @@
 }
 .price:nth-child(2) {
   display: flex;
-  flex-direction: column;
+  /* flex-direction: column; */
   gap: 0.8rem;
   border-right: 0.1rem solid rgba(0, 0, 0, 0.15);
   padding-right: 9.1rem;
@@ -187,7 +182,6 @@
   transition: 0.3s;
   cursor: pointer;
   box-shadow: rgba(99, 99, 99, 0.2) 0px 4px 10px 0px;
-
 }
 
 .about-project__card__title {
@@ -240,7 +234,6 @@
   }
 }
 .about-project__card__disebled {
-  opacity: 50%;
 }
 .about-project__card__buttons .disebled-btn {
   background-color: rgba(0, 0, 0, 0.3);
@@ -251,11 +244,9 @@
 
 /* BREACKPOINTS */
 @media (max-width: 475px) {
-
   .container {
     padding-left: 2.4rem;
     padding-right: 2.4rem;
-
   }
 
   .header__container {
@@ -266,9 +257,7 @@
 
   .header {
     background: url(../images/image-hero-mobile.jpg);
-    /* background-position: center; */
     padding-top: 3.2rem;
-
   }
 
   .sitenav {
