@@ -243,7 +243,7 @@
 /* RESPONSIVE DESIGN */
 
 /* BREACKPOINTS */
-@media (max-width: 475px) {
+@media (max-width: 500px) {
   .container {
     padding-left: 2.4rem;
     padding-right: 2.4rem;
